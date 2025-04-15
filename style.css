@@ -50,6 +50,16 @@
     color: white;
 }
 
+.bleu-violet{
+background-color: rgba(188, 146, 227, 0.804);
+
+}
+.back{
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+
     .black {
         color: black;
     }
