@@ -1,12 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #000000;
-    font-family: "Montserrat Alternates";
 }
 
 .texte {
@@ -29,16 +26,12 @@ body {
     width: 70%;
 }
 
-.logo-img {
-    height: 50px; /* Logo dimension petit */
-    width: 50px;
-  }
 .titre-centre {
     text-align: center;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -46,6 +39,7 @@ body {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
     align-items: flex-start;
 }
 
@@ -72,11 +66,8 @@ a {
 .paddingTop100 {
     padding-top: 100px;
 }
-.padding40{
-    padding: 40px 0;
-}
 
-.paddingTop50 {
+.paddingTop30 {
     padding-top: 50px;
 }
 
@@ -91,23 +82,10 @@ a {
     margin-top: 40px;
 }
 
-h1 {
-    font-family: "Permanent Marker", cursive;
-    font-size: 50px;
-}
-h2{
-    font-family: "Permanent Marker", cursive;
-    font-size: 44px;
-}
 
-.police{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #000000;
-}
+
 .photo {
-   
+    flex: 0 0 auto;
 
 }
 
@@ -120,27 +98,14 @@ h2{
     /* pour la rendre ronde */
     object-fit: cover;
     /* garde les proportions de l’image */
-    display: block;
-    margin: auto;
 }
-
-.introduction {
-    display: flex;
-    align-items: center;  /* Allinea verticalmente l'immagine e il testo */
-    justify-content: flex-start;  /* Allinea gli elementi a sinistra */
-    padding-top: 100px;
-}
-
 
 .texte {
     flex: 1;
     /* le texte prend tout l’espace disponible */
 }
 
-.photo {
-    order: 1;  /* Cambia l'ordine degli elementi mettendo prima l'immagine */
-    margin-right: 20px;  /* Distanza tra l'immagine e il testo */
-}
+
 
 /* Black hover effect */
 .black:hover {
@@ -166,9 +131,7 @@ h2{
 /* Header */
 header {
     padding: 10px;
-    background-color: #FFDEE9;
-    background-image: linear-gradient(315deg, #FFDEE9 0%, #B5FFFC 100%);
-    
+    background-color: rgba(0, 145, 255, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -189,8 +152,6 @@ header>nav {
     position: relative;
 }
 
-
-
 /* Taches */
 .tache-jaune {
     background-color: #D2902B;
@@ -202,21 +163,6 @@ header>nav {
     filter: blur(200px);
 }
 
-/* à propos de moi*/
-
-.moi{
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
-}
-
-.sectionMesProjets{
-    background-color: #FFDEE9;
-    background-image: linear-gradient(315deg, #FFDEE9 0%, #B5FFFC 100%);
-    
-
-}
-
-
 /* Mes Projets */
 .mes-projets {
     padding: 30px;
@@ -226,33 +172,10 @@ header>nav {
     /* Bordure arrondie pour toute la section */
 }
 
-.btn {
-    background-color: #d69ee3;
-    color: white;
-    padding-left: 31px;
-    padding-right: 31px;
-    padding-top: 26px;
-    padding-bottom: 26px;
-    display: inline-block;
-    border-radius: 18px;
-    margin-top: 30px;
-}
 .mes-projets h2 {
     text-align: center;
     font-size: 2rem;
     color: #fff;
-}
-
-.projet {
-    background-color: white;
-    padding: 20px;
-    border-radius: 15px;
-    /* Bordure arrondie pour chaque projet */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    /* Chaque projet occupe 30% de la largeur de l'écran */
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
 }
 
 .projets-container {
@@ -382,10 +305,11 @@ header>nav {
 .footer {
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    
+    
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    justify-content: center;
     font-family: Arial, sans-serif;
   }
   
