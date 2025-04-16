@@ -166,7 +166,9 @@ h2{
 /* Header */
 header {
     padding: 10px;
-    background-color: rgba(0, 145, 255, 0.5);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(315deg, #FFDEE9 0%, #B5FFFC 100%);
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -224,6 +226,17 @@ header>nav {
     /* Bordure arrondie pour toute la section */
 }
 
+.btn {
+    background-color: #d69ee3;
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border-radius: 18px;
+    margin-top: 30px;
+}
 .mes-projets h2 {
     text-align: center;
     font-size: 2rem;
