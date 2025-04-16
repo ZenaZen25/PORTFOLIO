@@ -170,6 +170,18 @@ header>nav {
     margin: auto;
 }
 
+/*  contact EMAIL */
+
+
+.icon-email {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease;
+}
+
+.icon-email:hover {
+    transform: scale(1.1);
+}
 /* section hero */
 .hero {
     background: #f5cd90;
